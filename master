@@ -1,0 +1,16 @@
+transport: tcp
+#engines:
+#  - thorium: {}
+fileserver_backend:
+  - git
+gitfs_remotes:
+  - https://github.com/thatch45/sshtest.git:
+    - root: this/is/nest
+#  - https://github.com/thatch45/sshtest2.git:
+#    - root: foo/bar/baz
+gitfs_provider: pygit2
+
+ext_pillar:
+  - git:
+    - master https://github.com/thatch45/sshtest.git:
+      - root: pillar
