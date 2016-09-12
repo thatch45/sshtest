@@ -1,4 +1,4 @@
-has_grains: {{ has_grains }}
+has_pillar: {{ has_pillar }}
 {% if grains['roles']['dmz'] %}
 has
 {% else %}
