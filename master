@@ -5,7 +5,7 @@ fileserver_backend:
   - git
 gitfs_remotes:
   - https://github.com/thatch45/sshtest.git:
-    - root: this/is/nest
+    - root: states
 #  - https://github.com/thatch45/sshtest2.git:
 #    - root: foo/bar/baz
 gitfs_provider: pygit2
