@@ -1,2 +1,2 @@
 def bar():
-    return {'cheese': True}
+    return {'roles': {'dmz': True}}
